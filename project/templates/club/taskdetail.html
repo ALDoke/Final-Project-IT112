@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Task Detail</h2>
+<p>Task Name: {{task.meetingtitle}} <br/>
+    Task Date : {{task.meetingdate}} <br/>
+    Task Time : {{task.meetingtime}} <br/>
+    Task Location : {{task.meetinglocation}} <br/>
+    Agenda : {{meeting.agenda}}
+</p>
+
+{% endblock %}
